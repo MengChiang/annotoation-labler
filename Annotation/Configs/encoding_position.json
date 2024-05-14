@@ -1,0 +1,21 @@
+{
+  "rice": 0,
+  "seaweed": 1,
+  "fish": 2,
+  "nigiri": 3,
+  "maki": 4,
+  "sashimi": 5,
+  "knife": 6,
+  "bamboo_mat": 7,
+  "slicing": 8,
+  "rolling": 9,
+  "serve_with_soy_sauce": 10,
+  "serve_with_wasabi": 11,
+  "vegetarian_preference": 12,
+  "gluten_free_preference": 13,
+  "take_order": 14,
+  "prepare_sushi": 15,
+  "serve_customer": 16,
+  "no_wasabi_request": 17,
+  "extra_ginger_request": 18
+}

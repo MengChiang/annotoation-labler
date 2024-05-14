@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Annotation/.vs
+/.vs/Annotation/FileContentIndex
+/Annotation/bin/Debug/net8.0-windows
+/Annotation/obj
+*.user
+/.vs
+/Annotation/bin
+/Annotation/Data

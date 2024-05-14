@@ -1,0 +1,20 @@
+﻿<Window x:Class="Annotation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Annotation"
+        mc:Ignorable="d"
+        Title="CSS Annotation Tool" Height="892" Width="1280">
+    <Grid>
+        <Label x:Name="CategoryLabel" Content="" HorizontalAlignment="Left" Margin="761,34,0,0" VerticalAlignment="Top" Width="115" Height="30"/>
+        <Label x:Name="SubCategoryLabel" Content="" HorizontalAlignment="Left" Margin="1000,34,0,0" VerticalAlignment="Top" Width="172" Height="30" RenderTransformOrigin="0.401,0.028"/>
+        <Button x:Name="DataLoadBtn" Content="Load Data" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Click="TsvLoadBtn_Click"/>
+        <Button x:Name="AnnotationLoadBtn" Content="Load Annotations" HorizontalAlignment="Left" Margin="129,10,0,0" VerticalAlignment="Top" Width="114" Click="AnnotationLoadBtn_Click" Visibility="Hidden"/>
+        <Button x:Name="SaveFileBtn" Content="Save File" HorizontalAlignment="Left" Margin="261,10,0,0" VerticalAlignment="Top" Width="74" Click="SaveFileBtn_Click" Visibility="Hidden"/>
+        <ListBox x:Name="FileListBox" HorizontalAlignment="Left" Margin="10,34,0,10" Width="338" SelectionChanged="FileListBox_SelectionChanged"/>
+        <TextBox x:Name="textArea" HorizontalAlignment="Left" Margin="353,34,0,10" TextWrapping="Wrap" Width="397"/>
+        <StackPanel Name="CategoryPanel" Margin="755,67,0,58" HorizontalAlignment="Left" Width="178"/>
+        <StackPanel x:Name="SubCategoryPanel" Margin="1000,67,0,58" HorizontalAlignment="Left" Width="204"/>
+    </Grid>
+</Window>
